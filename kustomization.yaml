@@ -3,7 +3,9 @@ helmCharts:
   releaseName: team-1
   namespace: team-1
   valuesFile: values/team-1.yaml
+  valuesMerge: replace
 - name: product-team
   releaseName: team-2
   namespace: team-2
   valuesFile: values/team-2.yaml
+  valuesMerge: replace
